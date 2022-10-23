@@ -3,7 +3,7 @@ def solution(citations):
     num=0
     li=[]
     originlen=len(citations)
-    #원소의개수보다 인용횟수가 큰값은 절대 H-index가 될 수 없기때문에 pop해주고 그 개수만큼 num증가
+    #원소의개수보다 인용횟수가 큰값은 절대 H-index가 될 수 없기때문에 pop해주고 그 개수만큼 num증가(li의 원소개수를 줄이기위해)
     for i in range(originlen):
         if citations[-1]<=originlen:
             li.append(citations.pop())
