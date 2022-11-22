@@ -1,0 +1,26 @@
+*{padding:0;margin:0}
+ul,ol{list-style:none}
+a{text-decoration:none;color:#fff;font-size:15px}
+#nav{height:80px;background-color:#110d50;margin:15px auto}
+#side{position:sticky; float: left; width: 120px; height:80px;background-color:#110d50;margin:15px auto}
+#side>input{
+    display: block;
+    background-color: rgb(219, 93, 58);
+    position:sticky;
+}
+#nav>a {
+    display: block; /* a태그는 글자성격 = inline */
+    float: left;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 80px;
+    padding: 0 30px;
+}
+#nav>ul {
+    float: right;
+}
+#nav>ul li {
+    float: left;
+    padding: 0 30px;
+    line-height: 80px;
+}
